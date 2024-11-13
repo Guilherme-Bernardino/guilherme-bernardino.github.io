@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Times, sans-serif;
+    background-color: #000;
+    color: #fff;
+	margin: 1em;
+}
+
+header.inventory {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    gap: 10px;
+    z-index: 100;
+}
+
+.slot {
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    position: relative;
+    text-align: center;
+}
+
+.slot:hover .slot-text {
+    display: inline;
+}
+
+.slot-icon {
+    width: 48px;
+    height: 48px;
+}
+
+.slot-text {
+    display: none;
+    margin-top: 5px;
+}
+
+.active-indicator {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 70px;
+    transition: left 0.3s ease;
+}
+
+.custom-container {
+    padding-top: 100px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.content-section {
+    display: none;
+}
+
+.content-section.active {
+    display: block;
+}
+
+/* Skills Section */
+.skills-columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.skill-column {
+    flex: 1;
+    padding-left: 20px;
+    border-left: 2px solid white;
+}
+
+.skill-column:first-child {
+    border-left: none;
+}
+
+.custom-progress {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.custom-progress-bar {
+    background-color: white; 
+    color: black; 
+    height: 100%;
+    text-align: right;
+    padding-right: 5px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+/* Projects Section */
+.projects-columns {
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.project-category h3 {
+    margin-top: 20px;
+}
+
+.project-item {
+    margin-bottom: 10px;
+}
+
+.project-title {
+    background: none;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 10px 0;
+    text-align: left;
+}
+
+.project-image {
+	height: 256px;
+	border: 2px solid #ffffff;
+}
+
+.icon-svg {
+    width: 40px; 
+    height: 40px; 
+	margin-right: 5px;
+    filter: invert(1);
+}
+
+.title-circle {
+	display:flex;
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.title-circle h1 {
+    font-size: 24px;
+    color: #fff;
+}

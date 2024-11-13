@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<!-- Made by Guilherme B. -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-GB</title>
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">   
+</head>
+<body>
+    <header class="inventory">
+        <div class="slot" onclick="navigateTo('about')">
+            <img src="img/glasses-02-svgrepo-com.svg" alt="About Icon" class="slot-icon icon-svg">
+        </div>
+        <div class="slot" onclick="navigateTo('skills')">
+            <img src="img/skill-level-advanced-svgrepo-com.svg" alt="Skills Icon" class="slot-icon icon-svg">
+        </div>
+        <div class="slot" onclick="navigateTo('games')">
+            <img src="img/gamecontroller-fill-svgrepo-com.svg" alt="Games Icon" class="slot-icon icon-svg">
+        </div>
+        <div class="slot" onclick="navigateTo('projects')">
+            <img src="img/folder-open-svgrepo-com.svg" alt="Projects Icon" class="slot-icon icon-svg">
+        </div>
+        <div class="active-indicator">▲</div>
+    </header>
+
+    <div class="custom-container">
+        <!-- About Section -->
+        <section id="about" class="content-section active">
+            <h2>About Me</h2>
+			<br/>
+			<div>
+				<img class="title-circle" src="img/new_icon.png" alt="image">
+				<br/>
+				<p >> Hi, the name's Guilherme. I'm a software developer and a game enthusiast from Portugal. <br/><br/>
+				> I have an advanced expertise in game development, through coding and design, using Unity and other tools. <br/><br/>
+				> I also have years of experience with Object-Oriented languages and Web languages. I wish to create interactive and cool projects and ideas through the power of coding.<br/><br/>
+				> Fluent in English and Portuguese.</p>
+				<br/>
+				<span class="" title="Email">
+					<a href="mailto:guilhermebernardino009@gmail.com"><img src="img/email-1572-svgrepo-com.svg" class="icon-svg"></a>
+				</span>
+				<span class="" title="Linkedin">
+					<a href="https://www.linkedin.com/in/guilherme-bernardino-3b4957203/"><img src="img/linkedin-161-svgrepo-com.svg" class="icon-svg"></a>
+				</span>
+				<span class="" title="Github">
+					<a href="https://github.com/Guilherme-Bernardino"><img src="img/github-svgrepo-com.svg" class="icon-svg"></a>
+				</span>
+				<span class="" title="Discord">
+					<a href="https://discordapp.com/users/blitzgb"><img src="img/discord-svgrepo-com.svg" class="icon-svg"></a>
+				</span>
+				</div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="content-section">
+            <h2>Skills</h2>
+			<br/>
+            <div class="skills-columns">
+                <!-- Programming Languages Column -->
+                <div class="skill-column">
+                    <h3>Coding Languages</h3>
+                    <div class="skill-item">
+                        <span>C#</span>
+                        <div class="custom-progress">
+                            <div class="custom-progress-bar" style="width: 80%;">80%</div>
+                        </div>
+                    </div>
+					<div class="skill-item">
+                        <span>Java</span>
+                        <div class="custom-progress">
+                            <div class="custom-progress-bar" style="width: 75%;">75%</div>
+                        </div>
+                    </div>
+					<div class="skill-item">
+                        <span>C++</span>
+                        <div class="custom-progress">
+                            <div class="custom-progress-bar" style="width: 65%;">65%</div>
+                        </div>
+                    </div>
+					<div class="skill-item">
+                        <span>HTML</span>
+                        <div class="custom-progress">
+                            <div class="custom-progress-bar" style="width: 60%;">60%</div>
+                        </div>
+                    </div>
+					<div class="skill-item">
+                        <span>CSS</span>
+                        <div class="custom-progress">
+                            <div class="custom-progress-bar" style="width: 60%;">60%</div>
+                        </div>
+                    </div>
+					<div class="skill-item">
+                        <span>JavaScript</span>
+                        <div class="custom-progress">
+                            <div class="custom-progress-bar" style="width: 50%;">50%</div>
+                        </div>
+                    </div>
+					<div class="skill-item">
+                        <span>SQL</span>
+                        <div class="custom-progress">
+                            <div class="custom-progress-bar" style="width: 45%;">45%</div>
+                        </div>
+                    </div>
+					<div class="skill-item">
+                        <span>GML</span>
+                        <div class="custom-progress">
+                            <div class="custom-progress-bar" style="width: 45%;">45%</div>
+                        </div>
+                    </div>
+                    <!-- Additional language skills here -->
+                </div>
+                
+                <!-- Tools Column -->
+                <div class="skill-column">
+                    <h3>Tools</h3>
+                    <div class="skill-item">
+                        <span>Git/GitHub</span>
+                        <div class="custom-progress">
+                            <div class="custom-progress-bar" style="width: 90%;">90%</div>
+                        </div>
+                    </div>
+					<div class="skill-item">
+                        <span>Visual Studio</span>
+                        <div class="custom-progress">
+                            <div class="custom-progress-bar" style="width: 90%;">90%</div>
+                        </div>
+                    </div>
+					<div class="skill-item">
+                        <span>Trello</span>
+                        <div class="custom-progress">
+                            <div class="custom-progress-bar" style="width: 85%;">85%</div>
+                        </div>
+                    </div>
+					<div class="skill-item">
+                        <span>Jira</span>
+                        <div class="custom-progress">
+                            <div class="custom-progress-bar" style="width: 80%;">80%</div>
+                        </div>
+                    </div>
+					<div class="skill-item">
+                        <span>Confluence</span>
+                        <div class="custom-progress">
+                            <div class="custom-progress-bar" style="width: 80%;">80%</div>
+                        </div>
+                    </div>
+					<div class="skill-item">
+                        <span>Blender</span>
+                        <div class="custom-progress">
+                            <div class="custom-progress-bar" style="width: 75%;">75%</div>
+                        </div>
+                    </div>
+					<div class="skill-item">
+                        <span>Visual Code</span>
+                        <div class="custom-progress">
+                            <div class="custom-progress-bar" style="width: 70%;">70%</div>
+                        </div>
+                    </div>
+                    <!-- Additional tools here -->
+                </div>
+
+                <!-- Frameworks Column -->
+                <div class="skill-column">
+                    <h3>Frameworks & Engines</h3>
+                    <div class="skill-item">
+                        <span>Unity</span>
+                        <div class="custom-progress">
+                            <div class="custom-progress-bar" style="width: 90%;">90%</div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>ASP.NET Core</span>
+                        <div class="custom-progress">
+                            <div class="custom-progress-bar" style="width: 85%;">85%</div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Entity Framework</span>
+                        <div class="custom-progress">
+                            <div class="custom-progress-bar" style="width: 80%;">80%</div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>GameMaker</span>
+                        <div class="custom-progress">
+                            <div class="custom-progress-bar" style="width: 80%;">80%</div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Node</span>
+                        <div class="custom-progress">
+                            <div class="custom-progress-bar" style="width: 60%;">60%</div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Bootstrap</span>
+                        <div class="custom-progress">
+                            <div class="custom-progress-bar" style="width: 50%;">50%</div>
+                        </div>
+                    </div>
+					<div class="skill-item">
+                        <span>Angular</span>
+                        <div class="custom-progress">
+                            <div class="custom-progress-bar" style="width: 40%;">40%</div>
+                        </div>
+                    </div>
+                    <!-- Additional frameworks here -->
+                </div>
+            </div>
+        </section>
+
+		<section id="games" class="content-section">
+			 <h2>Games</h2>
+			 <br/>
+                <!-- Games Column -->
+                <div class="project-category">
+                    <div class="project-item">
+                        <button class="project-title" data-toggle="collapse" data-target="#game1">> Beach Roller <h6>Hyper Casual Game</h6></button>
+                        <div id="game1" class="collapse project-details">
+                            <p>	A game about a girl on roller skates avoiding obstacles and doing tricks on a beach. The track hasright and left limitations and there are
+								multiple obstacles and collectibles along the way. The goal of the game is to reach
+								the end of the level without falling or being hit by an obstacle.
+								The main mechanic consists of dodging objects through the position of your finger
+								on the screen. The character accelerates as a result of touching the screen, and
+								then deviates depending on the horizontal position of the finger.</p>
+							<p> Contribution: Was responsible for creating logic and interaction between the
+								player and the existing obstacles. Also responsible for creating a playable
+								scene at the beginning with models and others to create a more presentable level.
+							</p>
+							<div class="tech-icons">
+								<span class="tech-icon" title="Unity">
+									<img src="img/unity-svgrepo-com.svg" class="icon-svg">
+								</span>
+							</div>
+							<br/>
+							<h5>Footage:</h5>
+							<br/>
+							<video width="320" height="240" controls>
+							  <source src="video/Beach Roller - CTR Test.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+							</video>
+                        </div>
+                    </div>
+					<div class="project-item">
+                        <button class="project-title" data-toggle="collapse" data-target="#game2">> Spooky Hunt <h6>Hyper Casual Game</h6></button>
+                        <div id="game2" class="collapse project-details">
+                            <p> A hunting game of ghosts in which we control a character with the ability to use a
+								vacuum cleaner to capture the ghosts. The game places the player in a scenario, in
+								a house or an office, where the objective is to catch as many green
+								ghosts in the scene as possible while avoiding the red ghosts. Each level has a certain number of ghosts, and
+								these are spread throughout the entire level.
+								The main game mechanic is the night vision, through the light of a flashlight
+								which points to wherever the player is looking. The control is based on
+								joystick and the character can walk in any direction within a 360º radius.The flashlight has an amplitude of 30º. 
+								The light is stopped as soon as it hits an obstacle,
+								e.g. the walls of the house, and any ghosts hit by the zone are exposed to the
+								player's view. Otherwise, any ghost that is not in the light zone is not visible to the
+								player. The player controls the character through the position of the finger on the
+								screen in which it moves according to the finger pressed and stops if it is not being
+								pressed. There are still complementary mechanics, in the form of a flashing red
+								light, which flashes more frequently the closer a red ghost is to the player.</p>
+							<p>Contribution: Was responsible for the player control logic, also for creating
+								playable levels in Unity, with walls and obstacles. Was
+								responsible for inserting 3D models into the scenes, to facilitate work and visual
+								understanding of the game.
+								</p>
+                        
+							<div class="tech-icons">
+								<span class="tech-icon" title="Unity">
+									<img src="img/unity-svgrepo-com.svg" class="icon-svg">
+								</span>
+							</div>
+							<br/>
+							<h5>Footage:</h5>
+							<br/>
+							<video width="320" height="240" controls>
+							  <source src="video/ghos_hunter.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+							</video>
+                        </div>
+                    </div>
+					<div class="project-item">
+                        <button class="project-title" data-toggle="collapse" data-target="#game3">> Brawl Fighters <h6>Hyper Casual Game</h6></button>
+                        <div id="game3" class="collapse project-details">
+                            <p>An survival free for all, on a single battlefield, in which we control a player in the
+								middle of an arena against several characters, with the objective of being the last
+								survivor left. These arenas contain power-ups that facilitate this objective.
+								The main mechanic is that each attack the opponent makes against or receives from
+								the player, applies damage to their existing health, and also knockback. This
+								mechanic gives the feeling of chaos in the game, in which the knockback applied by
+								attacks results in a chaotic fun. The knockback also applies to other opponents if a
+								character is pushed against these opponents, which can create a chain of pushes. The
+								player controls the character through the position of the finger on the screen, which
+								moves according to the pressing of the finger, and stops if it is not being pressed.
+								</p>
+							<p>Contribution: Responsible for the behavior of opponents in the game. NPCs, which in this game are
+								supposed to simulate the behavior of a real player, but are controlled by
+								artificial intelligence. The AI is a state-machine that changes states depeding on the condition of the match.</p>
+							<div class="tech-icons">
+								<span class="tech-icon" title="Unity">
+									<img src="img/unity-svgrepo-com.svg" class="icon-svg">
+								</span>
+							</div>
+							<br/>
+							<h5>Footage:</h5>
+							<br/>
+							<video width="320" height="240" controls>
+							  <source src="video/movie_007.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+							</video>
+							<video width="320" height="240" controls>
+							  <source src="video/movie_022.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+							</video>
+                        </div>
+                    </div>
+					<div class="project-item">
+                        <button class="project-title" data-toggle="collapse" data-target="#game4">> Wave Racer <h6>Hyper Casual Game</h6></button>
+                        <div id="game4" class="collapse project-details">
+                            <p> A racing game where characters drive jet skis on a track.
+								Characters can hit each other that get them out of the way and even dismount
+								them from the motorbike. The objective is to reach the end of the race.
+								The main mechanics consist of movement and buoyancy. These
+								mechanics are what give the game the realistic feeling that you want to achieve in
+								a hyper casual game. Jet skis and other objects in the water can float depending on
+								the water level, and change the values through waves, the weight of the object
+								itself or if physics were applied to the object such as being pushed or landing after
+								launching off a ramp. The character drives alone, the player only controls the
+								rotation of the motorbike depending on the position of the finger.</p>
+							<p>Contribution: Responsible for controlling and moving the motorcycle in the water,
+								and by the initial control of the game camera, the logic of characters colliding with
+								obstacles and some level elements.</p>
+							<div class="tech-icons">
+								<span class="tech-icon" title="Unity">
+									<img src="img/unity-svgrepo-com.svg" class="icon-svg">
+								</span>
+							</div>
+							<br/>
+							<h5>Footage:</h5>
+							<br/>
+							<video width="320" height="240" controls>
+							  <source src="video/Wave_Racer_CTR.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+							</video>
+                        </div>
+                    </div>
+					<div class="project-item">
+                        <button class="project-title" data-toggle="collapse" data-target="#game5">> Feng Shui <h6>Hyper Casual Game</h6></button>
+                        <div id="game5" class="collapse project-details">
+                            <p> A cleaning and moving game that presents rooms in a
+								destroyed and very unclean state, in which the objective is to clean, arrange and
+								place new objects in the scene.
+								The game mechanics are the remodeling of the house, that consist in the
+								succession of tasks that must be completed to move on to the next one. The game
+								presents a scenario at the beginning, with dirty and broken furniture, walls and
+								floor, and it is up to the player to fix it as best as possible. What brings the feeling of
+								pleasure in this game is the existence of a personalized transformation of the
+								division to the taste of each player.</p>
+							<p>Contribution: Responsible for the game design and coding the painting
+								system, task selection logic, as well as some tasks such as broken furniture
+								removal, trash cleaning, and the task of painting the walls and
+								ceilings.
+								</p>
+							<div class="tech-icons">
+								<span class="tech-icon" title="Unity">
+									<img src="img/unity-svgrepo-com.svg" class="icon-svg">
+								</span>
+							</div>
+							<br/>
+							<h5>Footage:</h5>
+							<br/>
+							<video width="320" height="240" controls>
+							  <source src="video/movie_043.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+							</video>
+                        </div>
+                    </div>
+					<div class="project-item">
+                        <button class="project-title" data-toggle="collapse" data-target="#game6">> Flames Out <h6>Hyper Casual Game</h6></button>
+                        <div id="game6" class="collapse project-details">
+                            <p> A firefighter simunalor, where the player shoots water
+								through a hose. It plays as a first-person shooter. 
+								The objective of the game is to put out as many fires as possible within the player's sight.
+								The main mechanic is shooting water from a hose and interacting with objects in
+								the scene. The level starts with a scenario in which there's furniture, people and sometimes animals on fire. 
+								The game allows the player to shoot water in the direction
+								where the finger is placed, where a jet of water affected by gravity applies physical
+								forces and can knock over objects. The main objective is to put out
+								fires with this function, fires that are durable and can take a long time to put out. If
+								the player is pressing, the hose is turned on, if they let go, it turns off. This process
+								uses a finite amount of water, and is spent through a limited tank each time the hose is turned on.</p>
+							<p>Contribution: Game Design and made the system that controls the hose. Also responsible for the system of water boundaries
+								and the interactions between objects and water.
+								</p>
+							<div class="tech-icons">
+								<span class="tech-icon" title="Unity">
+									<img src="img/unity-svgrepo-com.svg" class="icon-svg">
+								</span>
+							</div>
+							<br/>
+							<h5>Footage:</h5>
+							<br/>
+							<video width="320" height="240" controls>
+							  <source src="video/House_Kitchen2.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+							</video>
+							<video width="320" height="240" controls>
+							   <source src="video/BBQ_1.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+							</video>				 
+                        </div>
+                    </div>
+					<div class="project-item">
+                        <button class="project-title" data-toggle="collapse" data-target="#game7">> Rebound <h6>Indie Game</h6></button>
+                        <div id="game7" class="collapse project-details">
+                            <p>A game about defeating your enemy using the power of bounce, effectively a game of dodgeball where the ball never stops. 
+								Swing or parry with your weapon and try to land a hit on your opponent. It is possible to select up to
+								two levels with 3 different difficulties, each one harder than the previous. It is also
+								possible to use skills that affect the gameplay.
+								</p>
+							<p>Contribution: Everything</p>
+							<a href="https://bl1tzgb.itch.io/rebound">Itch.Io Page</a>
+							<div class="tech-icons">
+								<span class="tech-icon" title="Unity">
+									<img src="img/unity-svgrepo-com.svg" class="icon-svg">
+								</span>
+							</div>
+							<br/>
+							<img src="img/ZPBqBJ.png" alt="Game Project Image" class="project-image">
+							<img src="img/gwLsW5.png" alt="Game Project Image" class="project-image">
+                        </div>
+                    </div>
+					<div class="project-item">
+                        <button class="project-title" data-toggle="collapse" data-target="#game8">> Galactic Controller <h6>Indie Game</h6></button>
+                        <div id="game8" class="collapse project-details">
+                            <p>Galactic Controller is a strategy game where you play through multiple levels with
+								three types of ships: fangs, colossus and absorber. Your goal is to reach the end of
+								the levels, in singleplayer, by landing in planets with 3 ships in their respective
+								place, or in versus, against an AI or a Player where the goal is to beat your
+								opponent through a game of rock-paper-scissors. </p>
+							<p>Contribution: Everything</p>
+							<a href="https://bl1tzgb.itch.io/galactic-controller">Itch.Io Page</a>
+							<div class="tech-icons">
+								<span class="tech-icon" title="Unity">
+									<img src="img/unity-svgrepo-com.svg" class="icon-svg">
+								</span>
+							</div>
+							<br/>
+							<img src="img/4t+qGh.png" alt="Game Project Image" class="project-image">
+							<img src="img/IZs2jx.png" alt="Game Project Image" class="project-image">
+                        </div>
+                    </div>
+                   <div class="project-item">
+                        <button class="project-title" data-toggle="collapse" data-target="#game9">> Hot Bullet <h6>Indie Game</h6></button>
+                        <div id="game9" class="collapse project-details">
+                            <p>Hot Bullet is a Rogue-Like game that revolves around time. Use various weapons
+								and items to survive as long as possible against hordes of enemies and a life bar
+								that is constantly counting down. </p>
+								<p>Contribution: Coding and Design</p>
+							<a href="https://dvam-jp.itch.io/hot-bullet">Itch.Io Page</a>
+							<div class="tech-icons">
+								<span class="tech-icon" title="Unity">
+									<img src="img/unity-svgrepo-com.svg" class="icon-svg">
+								</span>
+							</div>
+							<br/>
+							<img src="img/hb1.png" alt="Game Project Image" class="project-image">
+							<img src="img/hb2.png" alt="Game Project Image" class="project-image">
+                        </div>
+                    </div>
+                </div>
+		</section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="content-section">
+            <h2>Projects</h2>
+			<br/>
+                <!-- Software Column -->
+                <div class="project-category">
+                    <h3>Software</h3>
+                    <div class="project-item">
+                        <button class="project-title" data-toggle="collapse" data-target="#software1">
+							>  MelodyCircle 
+							<h6> Academic Project and Web App</h6>
+						</button>
+                        <div id="software1" class="collapse project-details">
+                            <p>The project is a collaboration and education platform focused on the musical area. In a way, it serves
+							 as a network of users whose interest is to learn about music, meet other people in the field, enrich knowledge about
+							 certain musical areas, and even collaborate on projects to achieve a common goal, making music. It is possible to
+							 achieve these objectives with easy and quick communication and recognize skills through the assessment and
+							 feedback systems that we could see in education systems.</p>
+							<p> The application allows:<br/>
+								 • Creation of user accounts and customization;<br/>
+								 • Access and search for users, tutorials and collaborations;<br/>
+								 • Creation of tutorials that students can then subscribe to and use;<br/>
+								 • Creation of musical collaborations where multiple users can contribute to a musical projects through an
+								 arrangement panel.<br/></p>
+							<p> Contribution:<br/>
+								 • Mostly Backend;<br/>
+								 • Frontend & Stylization;<br/>
+								 • Azure Cloud Service Setup;<br/>
+								 • Google and Spotify API Setup. <br/></p>
+                            
+                            <div class="tech-icons">
+                                <span class="tech-icon" title="ASP.NET"><img src="img/brand-dotnet-svgrepo-com.svg" class="icon-svg"></span>
+								<span class="tech-icon" title="Angular"><img src="img/angular-svgrepo-com.svg" class="icon-svg"></span>
+								<span class="tech-icon" title="SQL Server"><img src="img/microsoftsqlserver-svgrepo-com.svg" class="icon-svg"></span>
+								<span class="tech-icon" title="Azure DevOps"><img src="img/azure-devops-svgrepo-com.svg" class="icon-svg"></span>
+                            </div>
+							<video width="320" height="240" controls>
+							  <source src="video/MC_app_video.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+							</video>
+                        </div>
+                    </div>
+                     <div class="project-item">
+                        <button class="project-title" data-toggle="collapse" data-target="#software2">
+							> Platform Crafter 
+							<h6>Unity Package</h6>
+						</button>
+                        <div id="software2" class="collapse project-details">
+                            <p>This project aimed to create a library, or package, on the Unity video game development platform. The purpose of this
+								 package was to help create scenarios, test components and parameterize properties seen in 2D platform video games,
+								 aiming to make this system modular, complete and accessible to developers of all levels of video game and Unity
+								 knowledge. </p>
+							<p> The application allows:<br/>
+								 • Create and customize configurations of modules for actions;<br/>
+								 • Movement, extra actions, interactions with scene, containers and inventories, animations and sound effects;<br/>
+								 • Store data through Scriptable Objects;<br/>
+								 • Custom editor view for simplicity in usage.<br/>
+								 
+							<a href="https://github.com/Guilherme-Bernardino/Platform-Crafter">Git Repo</a>
+							<div class="tech-icons">
+								<span class="tech-icon" title="Unity">
+									<img src="img/unity-svgrepo-com.svg" class="icon-svg">
+								</span>
+							</div>
+							<br/>
+							<img src="img/ModularBrainEditor.png" alt="1" class="project-image">
+							<img src="img/hm_configs.png" alt="2" class="project-image">
+							<img src="img/vm_configs.png" alt="3" class="project-image">
+							<img src="img/interaction_configs.png" alt="4" class="project-image">
+							<img src="img/inventory_configs3.png" alt="5" class="project-image">
+							<img src="img/sfx_configs.png" alt="6" class="project-image">
+							<img src="img/resource_configs.png" alt="7" class="project-image">
+							<img src="img/animation_configs.png" alt="8" class="project-image">
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
